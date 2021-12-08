@@ -14,12 +14,13 @@ namespace LoginFormSQL
     {
         public homeForm()
         {
+            //hello
             InitializeComponent();
         }
 
         private void homeForm_Load(object sender, EventArgs e)
         {
-
+            Console.WriteLine("Hello");
         }
 
         private void createAccBtn_Click(object sender, EventArgs e)
@@ -36,4 +37,5 @@ namespace LoginFormSQL
             loginPage.ShowDialog();
         }
     }
+    
 }
